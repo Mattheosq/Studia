@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Regal" directorySegmentName="seg_0" id="5026DDF5-5F2C-3221-2F2B-020D9DD46F17">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:53:14 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B491B8ED-7C72-3783-647C-9ABA3466457A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6164D472-027B-2018-5DBC-868CE752A710</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="pozycja" id="02ECF6B9-08CA-F667-8B40-BBC02CB176BB">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:53:38 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ilosc" id="D7B954E4-BE91-2E90-F7AF-D96B7D5D4293">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:53:38 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="ostatnio_dodano" id="52A457CF-2704-2426-0A61-477E4DFD22F5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:53:39 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

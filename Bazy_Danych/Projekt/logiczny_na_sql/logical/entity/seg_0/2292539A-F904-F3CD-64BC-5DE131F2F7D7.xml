@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2292539A-F904-F3CD-64BC-5DE131F2F7D7" name="Zamowienie">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:07:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_zamowienie" id="FAC0DAD3-D198-BDFA-74A1-5B19A6F4BDE0">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:40:42 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_faktury" id="CB200B60-3AE2-A88B-F04B-0D0D824A108A">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:40:42 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="DC91DB76-8EC8-203A-C98D-4C215FB4759B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:40:43 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metoda_odbioru" id="686BD074-C4F6-D725-B3FB-1C37438FA3BC">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:40:43 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_utworzenia" id="FA2858DF-262E-0727-786F-184339C189B6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:40:43 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kuponu" id="E56F7438-82A3-6E01-208A-80087826EADD">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:00:05 UTC</createdTime>
+<generatorID>C4AA1036-3360-2356-A380-07800D08462D</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>43E83B09-044A-F336-F983-472D6685151A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_uslugi" id="5544689E-605B-375A-F113-65EB4E02462A">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:00:23 UTC</createdTime>
+<generatorID>79230965-3F6B-F212-C129-20867F53A7EA</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C532A1E4-9510-56DC-C3B7-A4C08F388BAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_klient" id="0A3C1FFA-EAA5-338E-28A3-5EF44085CC26">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:00:41 UTC</createdTime>
+<generatorID>2873C4BB-1CBD-1DB0-1776-3F57338674D8</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<referedAttribute>C6A2F10E-9835-211D-205C-3CBF73AEC557</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B32C6104-48EF-C9CD-F63F-1CCBB5430707" name="Zamowienie PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:41:02 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAC0DAD3-D198-BDFA-74A1-5B19A6F4BDE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kupon_zamowienie" directorySegmentName="seg_0" id="C4AA1036-3360-2356-A380-07800D08462D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:00:05 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<sourcePk>6B75816C-26ED-37AF-2B44-4FD4BECE4585</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7660173F-0191-5C1E-1BC4-A3E77A9F241F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2292539A-F904-F3CD-64BC-5DE131F2F7D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35DEFE22-C2B2-1251-1787-5330134361EE" name="Producent">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>88FD080A-7849-08FF-9E0A-FB9515FE489D</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="3BF371C2-99FE-64A1-CEA2-F71DBA080993">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>23CEB483-BDE4-D3E3-4FD1-F762F289D6A3</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dziedzina" id="AF87ECB4-020B-069A-F554-90A4E3DFCF97">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>5E31E59E-CB48-4D6A-C432-AA93DD09F506</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj" id="90CE73C1-22D5-EFFC-8D84-1C9A1E0D843A">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>7190C40C-B71F-C986-7286-8D23C15C54BD</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_zalozenia" id="C94433B9-1673-4C8C-A072-E37B76D76825">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>2F86E8BD-CF8D-B486-B014-6D0C920B06F1</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="2682FD8A-1A97-49B7-3CB1-7864E9B653CF">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>145AF47D-3CDC-95F0-B0C4-E2EEF1A24A0D</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F50C04B-A818-36F8-7324-B4F51AD022AE" name="Producent_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>B6810CB4-2F6B-0031-E306-831F4B3AFC67</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BF371C2-99FE-64A1-CEA2-F71DBA080993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

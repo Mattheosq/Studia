@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1CCAC6F9-AFBE-F2EA-AF3A-CA6D05C668D7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:05:24 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2282B608-5A13-5CDC-58A2-65F351A9FD71" name="Pozycje_zamowien">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produkt_nazwa" id="0A247E23-0924-213D-A4F7-4F2ADA4D65C7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D72A81A-F2ED-4E63-927B-C458603B70C6" referredColumn="53D64F4A-ABAD-77DC-FE25-1A05F90C8D9A"/>
+</associations>
+</Column>
+<Column name="Zamowienie_id_zamowienie" id="0EABEF85-8838-BAAA-116C-DAE7A87102A0">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8E215DD-D010-B8BD-FDA2-063174FB6F8E" referredColumn="75DAC075-EC0E-8EEE-E3A2-5E00F7FD7548"/>
+</associations>
+</Column>
+<Column name="ilosc" id="45D22BC4-8CE5-E2A4-00D4-1DC14BB0F001">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>67D61853-A2C6-E135-722E-564AEC5FD33B</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="kolor" id="5AC9FF1C-EAC3-CFFE-3902-C7B1BDBF411A">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>69A946C4-43C8-CC37-2808-F3A494639C1F</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="dluzsza_gwarancja" id="8D97B47A-CB76-003D-F286-2584E3BCD51C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>7770DFC6-21E1-9650-A43C-7533FAA7967B</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F71C5C0C-9DF6-1EC0-E661-34DD4AE531AA" name="Pozycje_zamowien_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A247E23-0924-213D-A4F7-4F2ADA4D65C7"/>
+<colUsage columnID="0EABEF85-8838-BAAA-116C-DAE7A87102A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F618A6AE-1F6E-2D6A-180E-9F0D8BFB2246" name="Pozycje_zamowien_Produkt_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>AABB1206-C8B6-77A9-2F8C-43BEF027D5AC</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A247E23-0924-213D-A4F7-4F2ADA4D65C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E5B2C31-4A84-746E-D29E-D1AABB5E02FC" name="Pozycje_zamowien_Zamowienie_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>AABB1206-C8B6-77A9-2F8C-43BEF027D5AC</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EABEF85-8838-BAAA-116C-DAE7A87102A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

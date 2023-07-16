@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="390036A2-02F0-9E22-2340-9F3CE0C6712D" name="Klient">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>D1E4CFDE-0F8E-EA65-B4E3-375D651D4ADB</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_klient" id="8A753F45-6BC6-C98D-1EB8-D9F73283CD09">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>C6A2F10E-9835-211D-205C-3CBF73AEC557</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imie" id="C524FCE4-260D-66A9-0476-15EA4917021D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>DFBD1456-33E2-68DF-760F-43C0705BE851</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwisko" id="8D917A1E-6947-F8AD-B4B6-92715FDF70BA">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>635A7A30-3471-1AC4-51C1-49E0B8DFDCCB</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="C21736B9-7B20-FA0D-8B80-175DC4540CC5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>E2C08091-4DE3-6B4B-4BCC-FFE01894FD50</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefonu" id="AC249152-C5B8-5B86-2954-00246E71AAA6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>93D492F6-18C3-4CA1-C51E-CC0C3B653C32</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3C5DECE-818A-589B-97F7-60D05376FA3B" name="Klient_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>09D2CA7E-748A-8D5D-D70D-A80B9E5922ED</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A753F45-6BC6-C98D-1EB8-D9F73283CD09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

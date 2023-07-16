@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75BE4CB7-BDBC-2409-F146-7540A04CD198" name="Feedback">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:07:46 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_feedback" id="65894E34-FEB2-D341-CE16-4EB59279B4D3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:43:54 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ocena" id="611DFE37-F4A8-34A9-3A04-5B85AC9507C6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:43:55 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="komentarz" id="C1F18E23-B788-16AE-1403-99A64E27FA58">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:43:55 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_wystawienia" id="C0572503-2EAA-2C3E-3A04-7B3E26D6CC03">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:43:56 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odpowiedz" id="4F8B6D72-81F8-A990-B88D-A97C424B8D79">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:43:56 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zamowienie" id="F031F2C7-2675-29C5-A873-892633913AE6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:02:48 UTC</createdTime>
+<generatorID>60FFC3C6-A667-B52B-B299-275FA011C738</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<referedAttribute>FAC0DAD3-D198-BDFA-74A1-5B19A6F4BDE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_klient" id="5925E2CA-4D41-D598-8360-CBDF0690C7BC">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:03:10 UTC</createdTime>
+<generatorID>4C7B942B-E5DF-204C-3AAF-9F89530CC570</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<referedAttribute>C6A2F10E-9835-211D-205C-3CBF73AEC557</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="168445B8-5525-D685-5AD8-4DFAFC37320A" name="Feedback PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:44:06 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65894E34-FEB2-D341-CE16-4EB59279B4D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

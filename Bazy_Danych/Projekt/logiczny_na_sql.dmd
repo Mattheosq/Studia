@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logiczny_na_sql" id="7691E902-E609-80EE-2AD3-A7C1738E3F6C" version="3.5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:05:24 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7691E902-E609-80EE-2AD3-A7C1738E3F6C</designId>
+</OSDM_Design>

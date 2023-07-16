@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="magazyn_pracownik" directorySegmentName="seg_0" id="965262D6-6464-0164-5758-F1B97A977B39">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:58:58 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<sourcePk>C727854B-DEF8-C379-E6D6-7EDC258AD5E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6164D472-027B-2018-5DBC-868CE752A710</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F9F7D4F-BE8F-8293-4E87-8507AF8903D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

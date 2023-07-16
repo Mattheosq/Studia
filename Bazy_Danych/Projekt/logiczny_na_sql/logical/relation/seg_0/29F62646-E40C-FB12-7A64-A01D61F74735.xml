@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="oddzial_magazyn" directorySegmentName="seg_0" id="29F62646-E40C-FB12-7A64-A01D61F74735">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:59:34 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<sourcePk>CD14CC0A-008B-584B-73ED-0315ACD516E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D3FF247F-EB4C-57C9-B0B7-629F339277BF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6164D472-027B-2018-5DBC-868CE752A710</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

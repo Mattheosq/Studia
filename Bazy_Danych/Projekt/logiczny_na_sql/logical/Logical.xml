@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="64CFA596-E79D-02A4-8AB4-D2F3FB5C2C5D" mainViewID="82BB2695-17BA-14AB-E43F-B178C0B74E1D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 21:05:24 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="865884A4-DB66-E2FB-9EB6-4D797F8050B8" containerWithKeyObject="0DC6E790-1925-1F85-FF66-9A74B41F6130" localFKIndex="80EF5EBD-FDF4-CF14-8C55-E530B19E9A7A" name="Zamowienie_Kupon_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>C4AA1036-3360-2356-A380-07800D08462D</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<referredTableLongName>Kupon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE2AE004-6C21-6BD5-F6A3-2975A5ADFDAA</referredTableID>
+<keyObject>F20C7853-46FC-4C83-1FD7-5722993156C4</keyObject>
+<referredKeyID>F20C7853-46FC-4C83-1FD7-5722993156C4</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_kuponu</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

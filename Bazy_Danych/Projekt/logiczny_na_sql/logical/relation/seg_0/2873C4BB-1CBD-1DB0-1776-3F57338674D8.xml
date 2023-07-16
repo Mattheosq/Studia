@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="klient_zamowienie" directorySegmentName="seg_0" id="2873C4BB-1CBD-1DB0-1776-3F57338674D8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:00:41 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<engineerTo>
+<item key="FAD6D922-57B6-2364-758F-4E0F073A5499" value="true"/>
+</engineerTo>
+<sourcePk>09D2CA7E-748A-8D5D-D70D-A80B9E5922ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D1E4CFDE-0F8E-EA65-B4E3-375D651D4ADB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2292539A-F904-F3CD-64BC-5DE131F2F7D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9585A8A-38FC-24C6-B101-63CBB94D43F6" name="Regal">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Produkt_nazwa" id="E04903C1-7AEB-30E8-FCF3-1C44D2D0E33D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B4DD37B-EA64-D5D0-EF7B-7BCEE2224139" referredColumn="53D64F4A-ABAD-77DC-FE25-1A05F90C8D9A"/>
+</associations>
+</Column>
+<Column name="Magazyn_id_magazyn" id="1CFF105A-15CB-AB24-D277-3EB7758EF2AD">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B4A190A-ADF5-359A-4399-67A90616333E" referredColumn="980B5387-B55D-338B-C101-E1BF91FD3DAC"/>
+</associations>
+</Column>
+<Column name="pozycja" id="DE887606-0E4C-3EA8-3642-4562EE51DBC4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>02ECF6B9-08CA-F667-8B40-BBC02CB176BB</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="ilosc" id="7F7C97A1-B04A-7B85-DA90-D26254FF1701">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>D7B954E4-BE91-2E90-F7AF-D96B7D5D4293</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="ostatnio_dodano" id="010BDACE-02FC-ED2B-8484-A5EBC9E7E00B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>52A457CF-2704-2426-0A61-477E4DFD22F5</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA358BE0-06CD-5CCC-BA2A-720CD6102526" name="Regal_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E04903C1-7AEB-30E8-FCF3-1C44D2D0E33D"/>
+<colUsage columnID="1CFF105A-15CB-AB24-D277-3EB7758EF2AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A1FD34D-817B-78B5-9FD6-87B1F95BC1C6" name="Regal_Produkt_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>5026DDF5-5F2C-3221-2F2B-020D9DD46F17</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E04903C1-7AEB-30E8-FCF3-1C44D2D0E33D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2120F142-2C61-A7F0-1BA2-7F3200C3A016" name="Regal_Magazyn_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>5026DDF5-5F2C-3221-2F2B-020D9DD46F17</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CFF105A-15CB-AB24-D277-3EB7758EF2AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

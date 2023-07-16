@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE070FBF-F24B-3425-E753-580F42EF98EB" name="Feedback">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>75BE4CB7-BDBC-2409-F146-7540A04CD198</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_feedback" id="2DBFA32F-0135-7679-B1F7-23A198497945">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>65894E34-FEB2-D341-CE16-4EB59279B4D3</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena" id="1EF70353-1A0C-B717-D36A-691F0E121C15">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>611DFE37-F4A8-34A9-3A04-5B85AC9507C6</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentarz" id="5A1EB176-D974-94D4-7B0E-E804B42C23F4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>C1F18E23-B788-16AE-1403-99A64E27FA58</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_wystawienia" id="7F7FD6C6-25E7-2FCD-78E6-6F5A818E1C96">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>C0572503-2EAA-2C3E-3A04-7B3E26D6CC03</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="odpowiedz" id="1AE6A783-36D5-24FA-02D1-CD856477F22D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>4F8B6D72-81F8-A990-B88D-A97C424B8D79</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zamowienie_id_zamowienie" id="F7EC5654-446D-3261-F8CE-E2AF859BDCB7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>F031F2C7-2675-29C5-A873-892633913AE6</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F83E9C77-C55B-2B63-3EFC-51708C71F0C4" referredColumn="75DAC075-EC0E-8EEE-E3A2-5E00F7FD7548"/>
+</associations>
+</Column>
+<Column name="Klient_id_klient" id="638F70AB-950B-24F9-27A6-5FFB25B40616">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>5925E2CA-4D41-D598-8360-CBDF0690C7BC</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE6DFB25-2066-ED38-C74A-6AF07D82335A" referredColumn="8A753F45-6BC6-C98D-1EB8-D9F73283CD09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50D394C3-85F4-E81D-1362-DC49C4FD4207" name="Feedback_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>168445B8-5525-D685-5AD8-4DFAFC37320A</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBFA32F-0135-7679-B1F7-23A198497945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2924FA1D-BC95-FA8F-C538-A9B9931CAE96" name="Feedback__IDX">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>60FFC3C6-A667-B52B-B299-275FA011C738</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F7EC5654-446D-3261-F8CE-E2AF859BDCB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EB2DA2D-37C8-526F-FA5F-8EB4DE1E822B" name="Feedback_Zamowienie_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>60FFC3C6-A667-B52B-B299-275FA011C738</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7EC5654-446D-3261-F8CE-E2AF859BDCB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFCC8699-74C4-8A42-64AD-996B935A933A" name="Feedback_Klient_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>4C7B942B-E5DF-204C-3AAF-9F89530CC570</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638F70AB-950B-24F9-27A6-5FFB25B40616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

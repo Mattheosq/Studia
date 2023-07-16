@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DC6E790-1925-1F85-FF66-9A74B41F6130" name="Zamowienie">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>2292539A-F904-F3CD-64BC-5DE131F2F7D7</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zamowienie" id="75DAC075-EC0E-8EEE-E3A2-5E00F7FD7548">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>FAC0DAD3-D198-BDFA-74A1-5B19A6F4BDE0</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_faktury" id="13EDC91B-E34A-9206-C7B9-FFA2E9196053">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>CB200B60-3AE2-A88B-F04B-0D0D824A108A</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="F0DE969F-CBE8-A321-A2C0-60C8985858F3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>DC91DB76-8EC8-203A-C98D-4C215FB4759B</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metoda_odbioru" id="F4EA3331-42A3-E6D5-7CB3-FEEAA01783A4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>686BD074-C4F6-D725-B3FB-1C37438FA3BC</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_utworzenia" id="3FDCF098-CFF9-4408-E98D-45881D5230F1">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>FA2858DF-262E-0727-786F-184339C189B6</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupon_id_kuponu" id="EE166222-9B53-076A-7FD6-8E3771800CBC">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>E56F7438-82A3-6E01-208A-80087826EADD</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="865884A4-DB66-E2FB-9EB6-4D797F8050B8" referredColumn="64459192-C67B-93E4-9B1A-60DD93227E8F"/>
+</associations>
+</Column>
+<Column name="Uslugi_id_uslugi" id="EBEA374D-416A-89EA-B34F-93C386E7EC64">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>5544689E-605B-375A-F113-65EB4E02462A</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="038DFA1E-4C48-382E-8665-53B50EE6D7AB" referredColumn="B0E8E433-F627-6C75-571F-02CE78FCE42B"/>
+</associations>
+</Column>
+<Column name="Klient_id_klient" id="42F44935-763E-C27C-3ECC-4BA4DBA4F076">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>0A3C1FFA-EAA5-338E-28A3-5EF44085CC26</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40283914-03F4-48C7-9468-DB4F608CC8A6" referredColumn="8A753F45-6BC6-C98D-1EB8-D9F73283CD09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3346938-ED97-1726-59D1-01C71841A02C" name="Zamowienie_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>B32C6104-48EF-C9CD-F63F-1CCBB5430707</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75DAC075-EC0E-8EEE-E3A2-5E00F7FD7548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6803B5F-7AA6-FBBD-742E-A349A5BA122F" name="Zamowienie_Klient_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>2873C4BB-1CBD-1DB0-1776-3F57338674D8</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42F44935-763E-C27C-3ECC-4BA4DBA4F076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80EF5EBD-FDF4-CF14-8C55-E530B19E9A7A" name="Zamowienie_Kupon_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>C4AA1036-3360-2356-A380-07800D08462D</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE166222-9B53-076A-7FD6-8E3771800CBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C1E0D5E-97FE-135E-B171-57BA8EC83346" name="Zamowienie_Uslugi_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-01-26 22:04:13 UTC</createdTime>
+<generatorID>79230965-3F6B-F212-C129-20867F53A7EA</generatorID>
+<ownerDesignName>logiczny_na_sql</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBEA374D-416A-89EA-B34F-93C386E7EC64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
