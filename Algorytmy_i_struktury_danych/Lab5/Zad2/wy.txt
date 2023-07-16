@@ -1,0 +1,12 @@
+********************Iteracja 1***************************
+Linia 1: PLATINUM 3 20
+Linia 2: GOLD 4 10
+Linia 3: SILVER 1 20
+********************Iteracja 2***************************
+Linia 1: PLATINUM 3 20
+Linia 2: SILVER 2 25
+Linia 3: SILVER 1 20
+********************Iteracja 3***************************
+Linia 1: SILVER 5 50
+Linia 2: SILVER 2 25
+Linia 3: SILVER 1 20
