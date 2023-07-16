@@ -1,0 +1,16 @@
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\bin\Debug\PROJEKT_PW_STATEK.exe.config
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\bin\Debug\PROJEKT_PW_STATEK.exe
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\bin\Debug\PROJEKT_PW_STATEK.pdb
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.csproj.AssemblyReference.cache
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.csproj.SuggestedBindingRedirects.cache
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\MainWindow.g.cs
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\App.g.cs
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK_MarkupCompile.cache
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK_MarkupCompile.lref
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\MainWindow.baml
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.g.resources
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.Properties.Resources.resources
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.csproj.GenerateResource.cache
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.csproj.CoreCompileInputs.cache
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.exe
+E:\3sem_2podejscie\PW\Projekt\PROJEKT_PW_STATEK\PROJEKT_PW_STATEK\obj\Debug\PROJEKT_PW_STATEK.pdb
